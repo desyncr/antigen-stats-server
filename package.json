@@ -1,0 +1,24 @@
+{
+  "name": "antigen-stats-server",
+  "version": "0.0.1",
+  "description": "A server to aggragate stats for antigen",
+  "main": "start_statd",
+  "private": true,
+  "dependencies": {
+    "statsd": "~0.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/simonweil/antigen-stats-server.git"
+  },
+  "author": "Simon Weil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonweil/antigen-stats-server/issues"
+  },
+  "homepage": "https://github.com/simonweil/antigen-stats-server"
+}

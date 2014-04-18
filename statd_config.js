@@ -99,8 +99,11 @@ Optional Variables:
 
 */
 {
-  graphitePort: 2003
+/*  graphitePort: 2003
 , graphiteHost: "graphite.example.com"
-, port: 8125
-, backends: [ "./backends/graphite" ]
+,*/ port: 8125
+/*, backends: [ "./backends/graphite" ]
+*/, dumpMessages: true
+, mgmt_address: "127.0.0.1"
+, mgmt_port: 8125
 }

@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+node_modules/.bin/statsd ./statd_config.js
